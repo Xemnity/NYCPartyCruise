@@ -111,6 +111,7 @@ header {
 	background: #000;
 	padding: 15px;
 	border-bottom: 10px double #C0C;
+	position: relative;
 }
 
 #logo {
@@ -182,7 +183,7 @@ nav ul li:hover ul li a {
 }
 
 nav li:hover a,
-nav ul li:hover ul li:hover a {
+nav ul li ul li:hover a {
 	background: #08a;
 	border-color: #fff;
 }
